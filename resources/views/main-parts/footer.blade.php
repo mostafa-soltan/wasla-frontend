@@ -1,7 +1,7 @@
 <footer>
     <div
         class="footer-wrapper section-bg2"
-        data-background="assets/img/gallery/footer_bg.png"
+        data-background="{{ asset('assets/img/gallery/footer_bg.png') }}"
     >
         <!-- Footer Top-->
         <div class="footer-area footer-padding">
@@ -13,7 +13,7 @@
                                 <div class="footer-tittle">
                                     <div class="footer-logo mb-20">
                                         <a href="/"
-                                        ><img src="assets/img/logo/logo2_footer.png" alt=""
+                                        ><img src="{{ asset('assets/img/logo/logo.png') }}" alt=""
                                             /></a>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@
                                                     id="newsletter-submit"
                                                     class="email_icon newsletter-submit button-contactForm"
                                                 >
-                                                    <img src="assets/img/gallery/form.png" alt="" />
+                                                    <img src="{{ asset('assets/img/gallery/form.png') }}" alt="" />
                                                 </button>
                                             </div>
                                             <div class="mt-10 info"></div>
